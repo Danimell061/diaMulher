@@ -1,0 +1,38 @@
+@media screen and (max-width: 1210px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    img{
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+        width: 70%;
+    }
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+    @media screen and (max-width: 614px) {
+        span{
+            font-size: 22px;
+            color: rgb(255, 49, 228);
+        }
+        h2{
+            font-size: 20px;
+        }
+        footer {
+            padding: 5px;
+            font-size: 12px;
+        }
+    }
+}
