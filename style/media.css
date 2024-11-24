@@ -1,0 +1,33 @@
+@media screen and (max-width: 1210px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    h2{
+        font-size: 20px;
+        line-height: 0px;
+    }
+    #submit{
+        align-self: center;
+    }
+    img{
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+        width: 70%;
+    }
+    @media screen and (max-width: 500px) {
+        img {
+            display: none;
+        }
+    }
+}
