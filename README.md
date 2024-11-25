@@ -1,1 +1,1 @@
-https://dia-mulher-chi.vercel.app/
+https://danimell061.github.io/diaMulher/outros.html
