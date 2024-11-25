@@ -54,11 +54,19 @@
             font-size: 23px;
             line-height: 10px;
         }
+        
     }
     @media screen and (max-width: 570px) {
         h2{
-            font-size: 20px;
-            line-height: 10px;
+            font-size: 19px;
+        }
+        #title{
+            line-height: 20px;
+        }
+    }
+    @media screen and (max-width: 540px) {
+        h2{
+            font-size: 15px;
         }
     }
 }
